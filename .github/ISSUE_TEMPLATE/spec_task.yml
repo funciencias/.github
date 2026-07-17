@@ -1,0 +1,19 @@
+name: Tarea de spec
+description: Convertir una definición de producto en especificación construible
+labels: [spec, needs-triage]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Fuente de producto
+      description: Link a decisión, documento o issue de product-specifications
+  - type: textarea
+    id: scope
+    attributes:
+      label: Alcance de la especificación
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación

@@ -1,0 +1,28 @@
+name: Feature request
+description: Solicitar una mejora o nueva funcionalidad
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema u oportunidad
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options:
+        - Producto
+        - Spec
+        - Desarrollo
+        - Web
+        - Operación
+    validations:
+      required: true

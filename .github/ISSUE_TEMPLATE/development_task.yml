@@ -1,0 +1,21 @@
+name: Tarea de desarrollo
+description: Implementar una parte del producto desde el spec aprobado
+labels: [development, needs-triage]
+body:
+  - type: input
+    id: spec
+    attributes:
+      label: Spec fuente
+      description: Link al issue/documento de product-spec
+    validations:
+      required: true
+  - type: textarea
+    id: work
+    attributes:
+      label: Trabajo a realizar
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verificación esperada

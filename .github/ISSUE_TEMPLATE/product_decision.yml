@@ -1,0 +1,20 @@
+name: Decisión de producto
+description: Registrar una decisión de producto/estrategia
+labels: [product, decision]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decisión propuesta
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto esperado
