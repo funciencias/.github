@@ -21,7 +21,7 @@ Nuestra línea principal actual es **Gane más licitaciones con IA**: ayudamos a
 
 | Repositorio | Propósito |
 |---|---|
-| [`web-site-funciencias`](https://github.com/funciencias/web-site-funciencias) | Sitio web institucional, SEO/AEO y Firebase Hosting |
+| [`web-site-funciencias-product-code`](https://github.com/funciencias/web-site-funciencias-product-code) | Código, versiones y despliegue del sitio web institucional |
 | [`gane-mas-licitaciones-con-ia-product-specifications`](https://github.com/funciencias/gane-mas-licitaciones-con-ia-product-specifications) | Estrategia, definición y alcance del producto |
 | [`gane-mas-licitaciones-con-ia-product-spec`](https://github.com/funciencias/gane-mas-licitaciones-con-ia-product-spec) | Especificación funcional/técnica construible |
 | [`gane-mas-licitaciones-con-ia-product-code`](https://github.com/funciencias/gane-mas-licitaciones-con-ia-product-code) | Código, versiones, releases y despliegue del producto |
